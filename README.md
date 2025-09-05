@@ -1,16 +1,19 @@
-# myapp
+# DDA-ACT1
 
-A new Flutter project.
+Simple Android app project made with Flutter and Dart in Firabase Studio code editor.
 
-## Getting Started
+The final apk can be downloaded from this link: 
 
-This project is a starting point for a Flutter application.
+## How to build
 
-A few resources to get you started if this is your first Flutter project:
+1. Open https://studio.firebase.google.com/ and login with Google
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+2. Import project from repository
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+3. Run from console the next command
+
+```bash
+chmod +x build.sh && ./build.sh
+```
+
+4. Download ``app-release.apk``.
